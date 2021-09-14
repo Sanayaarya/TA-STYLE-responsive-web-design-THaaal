@@ -3,62 +3,96 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>responsive-1</title>
+  <title>assignment-2</title>
   <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/c1308ccafd.js" crossorigin="anonymous"></script>
 </head>
 <body>
-  <header class="header">
-    <div class="container flex iten-center">
-      <img   src="./assets/logo.png" alt="">
-      <nav class="nav">
-        <ul class="container flex item-center column">
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Blog</a></li>
-          <li><a href="#">About</a></li>
-        </ul>
+  <header class="navbar">
+    <div class="container">
+      <nav class="flex justify-between item-center column">
+      <a class="brand" href="#">
+        <img src="./assets/logo.png" alt="logo">
+      </a>
+      <ul  class="nav-menu flex item-center">
+        <li class="nav-item">
+          <a href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="active" href="#">Blog</a>
+        </li >
+        <li class="nav-item">
+          <a href="#">About</a>
+        </li>
+      </ul>
       </nav>
     </div>
   </header>
   <main>
-    <section class="article padding">
-      <article class="container flex item-center flex-j ">
-  
-        
-    <div class="flex-48 ">
-      <h1 class="heading">Heading of the article</h1>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, quam! Fugiat, perferendis assumenda error ducimus culpa a commodi saepe molestiae consectetur obcaecati deleniti sapiente ullam ad eaque similique sit explicabo.</p>
-      <a class="btn" href="#">Read More</a>
-    </div>
-    <div class="flex-48">
-      <img class="width-full" src="./assets/01.png" alt="">
-    </div>
-      </article>
-    </section>
-    <section class="padding">
-      <h2>Our Blog</h2>
-      <div class="container flex flex-j ">
-        <div class="flex-30">
-          <img class="width-full" src="./assets/02.png" alt="">
-          <!-- <h1 class="heading">Heading of the article</h1>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, quam! Fugiat, perferendis assumenda error ducimus culpa a commodi saepe molestiae consectetur obcaecati deleniti sapiente ullam ad eaque similique sit explicabo.</p>
-      <a class="btn" href="#">Read More</a> -->
+    <section class="padding hero">
 
-        </div>
-        <div class="flex-30">
-          <img class="width-full" src="./assets/03.png" alt="">
-        </div>
-        <div class="flex-30">
-          <img class="width-full" src="./assets/04.png" alt="">
-        </div>
+  <article class="container flex item-center justify-between wrap">
+<div class="flex-48 flex-100 order-1">
+  <h1 class="header">What is lorem ipsum?</h1>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, distinctio at necessitatibus saepe quaerat vel cupiditate odit accusantium pariatur ipsam ullam unde eos totam delectus alias nam nemo similique ad.
+     </p>
+     <a class="btn" href="#">Read More</a>
+</div>
+<div class="flex-48 flex-100 ">
+  <img class="width-full" src="./assets/01.png" alt="01">
+</div>
+  </article>
+</section>
+<section class="padding blog">
+  <div class="container">
+  <h2 class="header text-center">
+  Our Blog
+  </h2>
+  <div class="flex justify-between wrap ">
+  <article class="flex-30 flex-100">
+  <div class="font-0">
+  <img class="width-full" src="./assets/02.png" alt="">
+  </div>
+  <h3 >Why do we use it?</h3>
+  <p>Lorem doloremque dolorum eveniet alias voluptas porro cupiditate delectus labore libero dicta, atque quam laudantium!</p>
+  <a class="btn" href="#">Read More</a>
+  </article>
+  <article class="flex-30 flex-100">
+    <div class="font-0">
+    <img class="width-full" src="./assets/03.png" alt="">
+    </div>
+    <h3 >Why do we use it?</h3>
+    <p>Lorem doloremque dolorum eveniet alias voluptas porro cupiditate delectus labore libero dicta, atque quam laudantium!</p>
+    <a class="btn" href="#">Read More</a>
+    </article>
+    <article class="flex-30 flex-100">
+      <div class="font-0">
+      <img class="width-full" src="./assets/04.png" alt="">
       </div>
-    </section>
-  </main>
-  <footer>
-    <div class="container">
-      <small>&copy; 2020 AltCampus</small>
+      <h3 >Why do we use it?</h3>
+      <p>Lorem doloremque dolorum eveniet alias voluptas porro cupiditate delectus labore libero dicta, atque quam laudantium!</p>
+      <a class="btn" href="#">Read More</a>
+      </article>s
+  </div>
+  </div>
+</section>
+</main>
+  <footer class="footer">
+    <div class="container flex justify-between item-center column">
+    <small>&copy; AltCampus</small>
+    <nav>
+      <a href="#">
+        <i class="fab fa-facebook-square"></i>
+      </a>
+      <a href="#">
+        <i class="fab fa-twitter-square"></i>
+      </a>
+      
+    </nav>
     </div>
   </footer>
-
-   
 </body>
 </html>
+  
+
+  
